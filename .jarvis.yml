@@ -1,0 +1,6 @@
+dpkg --add-architecture i386
+aptitude update
+aptitude install ia32-libs zip
+You'll also need the CramFS tools
+
+aptitude install cramfsprogs
